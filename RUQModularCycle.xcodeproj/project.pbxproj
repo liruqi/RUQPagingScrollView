@@ -21,6 +21,8 @@
 		558E87231926FB30009988A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558E87051926FB30009988A8 /* UIKit.framework */; };
 		558E872B1926FB30009988A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 558E87291926FB30009988A8 /* InfoPlist.strings */; };
 		558E872D1926FB30009988A8 /* RUQModularCycleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 558E872C1926FB30009988A8 /* RUQModularCycleTests.m */; };
+		558E87381926FB6F009988A8 /* RUQPagingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 558E87371926FB6F009988A8 /* RUQPagingScrollView.m */; };
+		558E873B192701A1009988A8 /* GBInfiniteScrollViewPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 558E873A192701A1009988A8 /* GBInfiniteScrollViewPage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		558E87281926FB30009988A8 /* RUQModularCycleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RUQModularCycleTests-Info.plist"; sourceTree = "<group>"; };
 		558E872A1926FB30009988A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		558E872C1926FB30009988A8 /* RUQModularCycleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RUQModularCycleTests.m; sourceTree = "<group>"; };
+		558E87361926FB6F009988A8 /* RUQPagingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUQPagingScrollView.h; sourceTree = "<group>"; };
+		558E87371926FB6F009988A8 /* RUQPagingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUQPagingScrollView.m; sourceTree = "<group>"; };
+		558E8739192701A1009988A8 /* GBInfiniteScrollViewPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBInfiniteScrollViewPage.h; sourceTree = "<group>"; };
+		558E873A192701A1009988A8 /* GBInfiniteScrollViewPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBInfiniteScrollViewPage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,10 @@
 		558E87071926FB30009988A8 /* RUQModularCycle */ = {
 			isa = PBXGroup;
 			children = (
+				558E8739192701A1009988A8 /* GBInfiniteScrollViewPage.h */,
+				558E873A192701A1009988A8 /* GBInfiniteScrollViewPage.m */,
+				558E87361926FB6F009988A8 /* RUQPagingScrollView.h */,
+				558E87371926FB6F009988A8 /* RUQPagingScrollView.m */,
 				558E87101926FB30009988A8 /* RUQAppDelegate.h */,
 				558E87111926FB30009988A8 /* RUQAppDelegate.m */,
 				558E87131926FB30009988A8 /* Main.storyboard */,
@@ -250,8 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558E87381926FB6F009988A8 /* RUQPagingScrollView.m in Sources */,
 				558E870E1926FB30009988A8 /* main.m in Sources */,
 				558E87121926FB30009988A8 /* RUQAppDelegate.m in Sources */,
+				558E873B192701A1009988A8 /* GBInfiniteScrollViewPage.m in Sources */,
 				558E87181926FB30009988A8 /* RUQViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
