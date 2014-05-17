@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		558E87021926FB30009988A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558E87011926FB30009988A8 /* Foundation.framework */; };
+		558E87041926FB30009988A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558E87031926FB30009988A8 /* CoreGraphics.framework */; };
+		558E87061926FB30009988A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558E87051926FB30009988A8 /* UIKit.framework */; };
+		558E870C1926FB30009988A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 558E870A1926FB30009988A8 /* InfoPlist.strings */; };
+		558E870E1926FB30009988A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 558E870D1926FB30009988A8 /* main.m */; };
+		558E87121926FB30009988A8 /* RUQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 558E87111926FB30009988A8 /* RUQAppDelegate.m */; };
+		558E87151926FB30009988A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558E87131926FB30009988A8 /* Main.storyboard */; };
+		558E87181926FB30009988A8 /* RUQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558E87171926FB30009988A8 /* RUQViewController.m */; };
+		558E871A1926FB30009988A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558E87191926FB30009988A8 /* Images.xcassets */; };
+		558E87211926FB30009988A8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558E87201926FB30009988A8 /* XCTest.framework */; };
+		558E87221926FB30009988A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558E87011926FB30009988A8 /* Foundation.framework */; };
+		558E87231926FB30009988A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558E87051926FB30009988A8 /* UIKit.framework */; };
+		558E872B1926FB30009988A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 558E87291926FB30009988A8 /* InfoPlist.strings */; };
+		558E872D1926FB30009988A8 /* RUQModularCycleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 558E872C1926FB30009988A8 /* RUQModularCycleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		558E87241926FB30009988A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 558E86F61926FB30009988A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 558E86FD1926FB30009988A8;
+			remoteInfo = RUQModularCycle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		558E86FE1926FB30009988A8 /* RUQModularCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUQModularCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		558E87011926FB30009988A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		558E87031926FB30009988A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		558E87051926FB30009988A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		558E87091926FB30009988A8 /* RUQModularCycle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RUQModularCycle-Info.plist"; sourceTree = "<group>"; };
+		558E870B1926FB30009988A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		558E870D1926FB30009988A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		558E870F1926FB30009988A8 /* RUQModularCycle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RUQModularCycle-Prefix.pch"; sourceTree = "<group>"; };
+		558E87101926FB30009988A8 /* RUQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RUQAppDelegate.h; sourceTree = "<group>"; };
+		558E87111926FB30009988A8 /* RUQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RUQAppDelegate.m; sourceTree = "<group>"; };
+		558E87141926FB30009988A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		558E87161926FB30009988A8 /* RUQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RUQViewController.h; sourceTree = "<group>"; };
+		558E87171926FB30009988A8 /* RUQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RUQViewController.m; sourceTree = "<group>"; };
+		558E87191926FB30009988A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		558E871F1926FB30009988A8 /* RUQModularCycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RUQModularCycleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		558E87201926FB30009988A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		558E87281926FB30009988A8 /* RUQModularCycleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RUQModularCycleTests-Info.plist"; sourceTree = "<group>"; };
+		558E872A1926FB30009988A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		558E872C1926FB30009988A8 /* RUQModularCycleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RUQModularCycleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		558E86FB1926FB30009988A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558E87041926FB30009988A8 /* CoreGraphics.framework in Frameworks */,
+				558E87061926FB30009988A8 /* UIKit.framework in Frameworks */,
+				558E87021926FB30009988A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558E871C1926FB30009988A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558E87211926FB30009988A8 /* XCTest.framework in Frameworks */,
+				558E87231926FB30009988A8 /* UIKit.framework in Frameworks */,
+				558E87221926FB30009988A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		558E86F51926FB30009988A8 = {
+			isa = PBXGroup;
+			children = (
+				558E87071926FB30009988A8 /* RUQModularCycle */,
+				558E87261926FB30009988A8 /* RUQModularCycleTests */,
+				558E87001926FB30009988A8 /* Frameworks */,
+				558E86FF1926FB30009988A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		558E86FF1926FB30009988A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				558E86FE1926FB30009988A8 /* RUQModularCycle.app */,
+				558E871F1926FB30009988A8 /* RUQModularCycleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		558E87001926FB30009988A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				558E87011926FB30009988A8 /* Foundation.framework */,
+				558E87031926FB30009988A8 /* CoreGraphics.framework */,
+				558E87051926FB30009988A8 /* UIKit.framework */,
+				558E87201926FB30009988A8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		558E87071926FB30009988A8 /* RUQModularCycle */ = {
+			isa = PBXGroup;
+			children = (
+				558E87101926FB30009988A8 /* RUQAppDelegate.h */,
+				558E87111926FB30009988A8 /* RUQAppDelegate.m */,
+				558E87131926FB30009988A8 /* Main.storyboard */,
+				558E87161926FB30009988A8 /* RUQViewController.h */,
+				558E87171926FB30009988A8 /* RUQViewController.m */,
+				558E87191926FB30009988A8 /* Images.xcassets */,
+				558E87081926FB30009988A8 /* Supporting Files */,
+			);
+			path = RUQModularCycle;
+			sourceTree = "<group>";
+		};
+		558E87081926FB30009988A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				558E87091926FB30009988A8 /* RUQModularCycle-Info.plist */,
+				558E870A1926FB30009988A8 /* InfoPlist.strings */,
+				558E870D1926FB30009988A8 /* main.m */,
+				558E870F1926FB30009988A8 /* RUQModularCycle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		558E87261926FB30009988A8 /* RUQModularCycleTests */ = {
+			isa = PBXGroup;
+			children = (
+				558E872C1926FB30009988A8 /* RUQModularCycleTests.m */,
+				558E87271926FB30009988A8 /* Supporting Files */,
+			);
+			path = RUQModularCycleTests;
+			sourceTree = "<group>";
+		};
+		558E87271926FB30009988A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				558E87281926FB30009988A8 /* RUQModularCycleTests-Info.plist */,
+				558E87291926FB30009988A8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		558E86FD1926FB30009988A8 /* RUQModularCycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558E87301926FB30009988A8 /* Build configuration list for PBXNativeTarget "RUQModularCycle" */;
+			buildPhases = (
+				558E86FA1926FB30009988A8 /* Sources */,
+				558E86FB1926FB30009988A8 /* Frameworks */,
+				558E86FC1926FB30009988A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RUQModularCycle;
+			productName = RUQModularCycle;
+			productReference = 558E86FE1926FB30009988A8 /* RUQModularCycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		558E871E1926FB30009988A8 /* RUQModularCycleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558E87331926FB30009988A8 /* Build configuration list for PBXNativeTarget "RUQModularCycleTests" */;
+			buildPhases = (
+				558E871B1926FB30009988A8 /* Sources */,
+				558E871C1926FB30009988A8 /* Frameworks */,
+				558E871D1926FB30009988A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				558E87251926FB30009988A8 /* PBXTargetDependency */,
+			);
+			name = RUQModularCycleTests;
+			productName = RUQModularCycleTests;
+			productReference = 558E871F1926FB30009988A8 /* RUQModularCycleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		558E86F61926FB30009988A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RUQ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = liruqi;
+				TargetAttributes = {
+					558E871E1926FB30009988A8 = {
+						TestTargetID = 558E86FD1926FB30009988A8;
+					};
+				};
+			};
+			buildConfigurationList = 558E86F91926FB30009988A8 /* Build configuration list for PBXProject "RUQModularCycle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 558E86F51926FB30009988A8;
+			productRefGroup = 558E86FF1926FB30009988A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				558E86FD1926FB30009988A8 /* RUQModularCycle */,
+				558E871E1926FB30009988A8 /* RUQModularCycleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		558E86FC1926FB30009988A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558E871A1926FB30009988A8 /* Images.xcassets in Resources */,
+				558E870C1926FB30009988A8 /* InfoPlist.strings in Resources */,
+				558E87151926FB30009988A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558E871D1926FB30009988A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558E872B1926FB30009988A8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		558E86FA1926FB30009988A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558E870E1926FB30009988A8 /* main.m in Sources */,
+				558E87121926FB30009988A8 /* RUQAppDelegate.m in Sources */,
+				558E87181926FB30009988A8 /* RUQViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558E871B1926FB30009988A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558E872D1926FB30009988A8 /* RUQModularCycleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		558E87251926FB30009988A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 558E86FD1926FB30009988A8 /* RUQModularCycle */;
+			targetProxy = 558E87241926FB30009988A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		558E870A1926FB30009988A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558E870B1926FB30009988A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		558E87131926FB30009988A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558E87141926FB30009988A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		558E87291926FB30009988A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				558E872A1926FB30009988A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		558E872E1926FB30009988A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		558E872F1926FB30009988A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		558E87311926FB30009988A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RUQModularCycle/RUQModularCycle-Prefix.pch";
+				INFOPLIST_FILE = "RUQModularCycle/RUQModularCycle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		558E87321926FB30009988A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RUQModularCycle/RUQModularCycle-Prefix.pch";
+				INFOPLIST_FILE = "RUQModularCycle/RUQModularCycle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		558E87341926FB30009988A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RUQModularCycle.app/RUQModularCycle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RUQModularCycle/RUQModularCycle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RUQModularCycleTests/RUQModularCycleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		558E87351926FB30009988A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RUQModularCycle.app/RUQModularCycle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RUQModularCycle/RUQModularCycle-Prefix.pch";
+				INFOPLIST_FILE = "RUQModularCycleTests/RUQModularCycleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		558E86F91926FB30009988A8 /* Build configuration list for PBXProject "RUQModularCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558E872E1926FB30009988A8 /* Debug */,
+				558E872F1926FB30009988A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		558E87301926FB30009988A8 /* Build configuration list for PBXNativeTarget "RUQModularCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558E87311926FB30009988A8 /* Debug */,
+				558E87321926FB30009988A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		558E87331926FB30009988A8 /* Build configuration list for PBXNativeTarget "RUQModularCycleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558E87341926FB30009988A8 /* Debug */,
+				558E87351926FB30009988A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 558E86F61926FB30009988A8 /* Project object */;
+}
