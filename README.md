@@ -1,1 +1,1 @@
-A paging scroll view for stream content.
+A dynamic paging scroll view for stream content.
