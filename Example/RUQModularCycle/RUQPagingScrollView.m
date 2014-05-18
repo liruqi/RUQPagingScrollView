@@ -103,6 +103,12 @@
 - (void)recenterContent
 {
     CGPoint currentContentOffset = [self contentOffset];
+    if (currentContentOffset.x < 0) {
+        currentContentOffset.x = 0;
+    } else if (currentContentOffset.x > CGRectGetWidth(self.frame)*2) {
+        currentContentOffset.x = CGRectGetWidth(self.frame)*2;
+    }
+    
     CGFloat distanceFromCenterOffsetX = fabs(currentContentOffset.x - CGRectGetWidth(self.frame));
     // NSLog(@"[recenterContent] currentContentOffset.x: %f", currentContentOffset.x);
     if (distanceFromCenterOffsetX == CGRectGetWidth(self.frame)) {

@@ -210,6 +210,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = liruqi;
 				TargetAttributes = {
+					558E86FD1926FB30009988A8 = {
+						DevelopmentTeam = M54LAUT7S6;
+					};
 					558E871E1926FB30009988A8 = {
 						TestTargetID = 558E86FD1926FB30009988A8;
 					};
@@ -389,10 +392,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RUQModularCycle/RUQModularCycle-Prefix.pch";
 				INFOPLIST_FILE = "RUQModularCycle/RUQModularCycle-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -402,10 +408,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RUQModularCycle/RUQModularCycle-Prefix.pch";
 				INFOPLIST_FILE = "RUQModularCycle/RUQModularCycle-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -469,6 +478,7 @@
 				558E87321926FB30009988A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		558E87331926FB30009988A8 /* Build configuration list for PBXNativeTarget "RUQModularCycleTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +487,7 @@
 				558E87351926FB30009988A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

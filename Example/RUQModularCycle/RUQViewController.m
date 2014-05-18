@@ -38,6 +38,7 @@ const int RUQINI = 2;
 }
 
 - (UIView*) viewWithNumber: (int) number {
+    NSLog(@"viewWithNumber: %d", number);
     GBInfiniteScrollViewPage* pageView = [[GBInfiniteScrollViewPage alloc] initWithFrame:self.view.bounds style:GBInfiniteScrollViewPageStyleText];
     pageView.textLabel.text = [NSString stringWithFormat:@"%d", number];
     pageView.backgroundColor = [self randomColor];
@@ -76,6 +77,12 @@ const int RUQINI = 2;
 
 - (UIView*) centerViewForScrollView : (RUQPagingScrollView*) scrollView {
     return [self viewWithNumber:RUQINI];
+}
+
+- (UIView*) loadingViewForscrollView:(RUQPagingScrollView *)scrollView {
+    UILabel* loadingLabel = [[UILabel alloc] initWithFrame:CGRectZero];
+    loadingLabel.text = @"Loading...";
+    return loadingLabel;
 }
 
 #pragma mark - RUQPagingScrollViewPagingDelegate
