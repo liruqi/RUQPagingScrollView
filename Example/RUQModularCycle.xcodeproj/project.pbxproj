@@ -16,24 +16,9 @@
 		558E87151926FB30009988A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558E87131926FB30009988A8 /* Main.storyboard */; };
 		558E87181926FB30009988A8 /* RUQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558E87171926FB30009988A8 /* RUQViewController.m */; };
 		558E871A1926FB30009988A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558E87191926FB30009988A8 /* Images.xcassets */; };
-		558E87211926FB30009988A8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558E87201926FB30009988A8 /* XCTest.framework */; };
-		558E87221926FB30009988A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558E87011926FB30009988A8 /* Foundation.framework */; };
-		558E87231926FB30009988A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558E87051926FB30009988A8 /* UIKit.framework */; };
-		558E872B1926FB30009988A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 558E87291926FB30009988A8 /* InfoPlist.strings */; };
-		558E872D1926FB30009988A8 /* RUQModularCycleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 558E872C1926FB30009988A8 /* RUQModularCycleTests.m */; };
 		558E87381926FB6F009988A8 /* RUQPagingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 558E87371926FB6F009988A8 /* RUQPagingScrollView.m */; };
 		558E873B192701A1009988A8 /* GBInfiniteScrollViewPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 558E873A192701A1009988A8 /* GBInfiniteScrollViewPage.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		558E87241926FB30009988A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 558E86F61926FB30009988A8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 558E86FD1926FB30009988A8;
-			remoteInfo = RUQModularCycle;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		558E86FE1926FB30009988A8 /* RUQModularCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RUQModularCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,11 +35,7 @@
 		558E87161926FB30009988A8 /* RUQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RUQViewController.h; sourceTree = "<group>"; };
 		558E87171926FB30009988A8 /* RUQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RUQViewController.m; sourceTree = "<group>"; };
 		558E87191926FB30009988A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		558E871F1926FB30009988A8 /* RUQModularCycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RUQModularCycleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		558E87201926FB30009988A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		558E87281926FB30009988A8 /* RUQModularCycleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RUQModularCycleTests-Info.plist"; sourceTree = "<group>"; };
-		558E872A1926FB30009988A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		558E872C1926FB30009988A8 /* RUQModularCycleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RUQModularCycleTests.m; sourceTree = "<group>"; };
 		558E87361926FB6F009988A8 /* RUQPagingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUQPagingScrollView.h; sourceTree = "<group>"; };
 		558E87371926FB6F009988A8 /* RUQPagingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUQPagingScrollView.m; sourceTree = "<group>"; };
 		558E8739192701A1009988A8 /* GBInfiniteScrollViewPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBInfiniteScrollViewPage.h; sourceTree = "<group>"; };
@@ -72,16 +53,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		558E871C1926FB30009988A8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				558E87211926FB30009988A8 /* XCTest.framework in Frameworks */,
-				558E87231926FB30009988A8 /* UIKit.framework in Frameworks */,
-				558E87221926FB30009988A8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -89,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				558E87071926FB30009988A8 /* RUQModularCycle */,
-				558E87261926FB30009988A8 /* RUQModularCycleTests */,
 				558E87001926FB30009988A8 /* Frameworks */,
 				558E86FF1926FB30009988A8 /* Products */,
 			);
@@ -99,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				558E86FE1926FB30009988A8 /* RUQModularCycle.app */,
-				558E871F1926FB30009988A8 /* RUQModularCycleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,24 +113,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		558E87261926FB30009988A8 /* RUQModularCycleTests */ = {
-			isa = PBXGroup;
-			children = (
-				558E872C1926FB30009988A8 /* RUQModularCycleTests.m */,
-				558E87271926FB30009988A8 /* Supporting Files */,
-			);
-			path = RUQModularCycleTests;
-			sourceTree = "<group>";
-		};
-		558E87271926FB30009988A8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				558E87281926FB30009988A8 /* RUQModularCycleTests-Info.plist */,
-				558E87291926FB30009988A8 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,24 +133,6 @@
 			productReference = 558E86FE1926FB30009988A8 /* RUQModularCycle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		558E871E1926FB30009988A8 /* RUQModularCycleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 558E87331926FB30009988A8 /* Build configuration list for PBXNativeTarget "RUQModularCycleTests" */;
-			buildPhases = (
-				558E871B1926FB30009988A8 /* Sources */,
-				558E871C1926FB30009988A8 /* Frameworks */,
-				558E871D1926FB30009988A8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				558E87251926FB30009988A8 /* PBXTargetDependency */,
-			);
-			name = RUQModularCycleTests;
-			productName = RUQModularCycleTests;
-			productReference = 558E871F1926FB30009988A8 /* RUQModularCycleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -212,9 +145,6 @@
 				TargetAttributes = {
 					558E86FD1926FB30009988A8 = {
 						DevelopmentTeam = M54LAUT7S6;
-					};
-					558E871E1926FB30009988A8 = {
-						TestTargetID = 558E86FD1926FB30009988A8;
 					};
 				};
 			};
@@ -232,7 +162,6 @@
 			projectRoot = "";
 			targets = (
 				558E86FD1926FB30009988A8 /* RUQModularCycle */,
-				558E871E1926FB30009988A8 /* RUQModularCycleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,14 +174,6 @@
 				558E871A1926FB30009988A8 /* Images.xcassets in Resources */,
 				558E870C1926FB30009988A8 /* InfoPlist.strings in Resources */,
 				558E87151926FB30009988A8 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		558E871D1926FB30009988A8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				558E872B1926FB30009988A8 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,23 +192,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		558E871B1926FB30009988A8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				558E872D1926FB30009988A8 /* RUQModularCycleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		558E87251926FB30009988A8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 558E86FD1926FB30009988A8 /* RUQModularCycle */;
-			targetProxy = 558E87241926FB30009988A8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		558E870A1926FB30009988A8 /* InfoPlist.strings */ = {
@@ -304,14 +209,6 @@
 				558E87141926FB30009988A8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		558E87291926FB30009988A8 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				558E872A1926FB30009988A8 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -419,46 +316,6 @@
 			};
 			name = Release;
 		};
-		558E87341926FB30009988A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RUQModularCycle.app/RUQModularCycle";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RUQModularCycle/RUQModularCycle-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "RUQModularCycleTests/RUQModularCycleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		558E87351926FB30009988A8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RUQModularCycle.app/RUQModularCycle";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RUQModularCycle/RUQModularCycle-Prefix.pch";
-				INFOPLIST_FILE = "RUQModularCycleTests/RUQModularCycleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -476,15 +333,6 @@
 			buildConfigurations = (
 				558E87311926FB30009988A8 /* Debug */,
 				558E87321926FB30009988A8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		558E87331926FB30009988A8 /* Build configuration list for PBXNativeTarget "RUQModularCycleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				558E87341926FB30009988A8 /* Debug */,
-				558E87351926FB30009988A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
