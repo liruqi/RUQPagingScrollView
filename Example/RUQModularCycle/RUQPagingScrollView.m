@@ -82,6 +82,9 @@
                 self.rightView.frame = CGRectMake(CGRectGetWidth(self.frame), 0, CGRectGetWidth(self.frame), CGRectGetHeight(self.frame));
                 [self addSubview:self.rightView];
             }
+        } else {
+            self.centerView.frame = self.bounds;
+            [self addSubview:self.centerView];
         }
         return;
     } else {
