@@ -1,4 +1,4 @@
-A dynamic paging scroll view for stream content.
+A paging scroll view for dynamic datasource.
 
 Similiar to `UIPageViewController`, but this is based on `UIScrollView`, switching views not view controllers. 
 
